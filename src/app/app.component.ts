@@ -61,11 +61,11 @@ type Todo = {
 	completed: boolean;
 };
 
-const API_URL = 'https://3788-176-233-26-59.ngrok-free.app';
+const API_URL = 'https://app.monkedo.com/webhook/';
 
 enum API {
-	GetTodos = API_URL + '/webhook/VEhqJ96elwfIt6Er',
-	CreateTodo = API_URL + '/webhook/i5monzKqLThOwtCj',
-	UpdateTodo = API_URL + '/webhook/EhGIxTHEAS77VDiv',
-	DeleteTodo = API_URL + '/webhook/61lQFkpKvztOD5tH',
+	GetTodos = API_URL + '6eSfPIGASGhf54An',
+	CreateTodo = API_URL + '1VQjnHZwx1KDkptb',
+	UpdateTodo = API_URL + 'feTQbm8kBosih6kg',
+	DeleteTodo = API_URL + 'GEFXc0FeJWg0LB7v',
 }
